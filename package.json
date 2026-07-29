@@ -1,0 +1,55 @@
+{
+  "name": "scroll-pagination-react",
+  "version": "1.0.0",
+  "description": "A lightweight React scroll pagination library",
+  "license": "MIT",
+  "author": "Ankit Pativala",
+
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts"
+  },
+
+  "keywords": [
+    "react",
+    "pagination",
+    "scroll",
+    "infinite-scroll",
+    "typescript",
+    "hooks"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ankit-pativala/scroll-pagination-react.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/ankit-pativala/scroll-pagination-react/issues"
+  },
+
+  "homepage": "https://github.com/ankit-pativala/scroll-pagination-react#readme",
+
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.2"
+  }
+}
