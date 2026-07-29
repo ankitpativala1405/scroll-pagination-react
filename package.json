@@ -2,13 +2,15 @@
   "name": "scroll-pagination-react",
   "version": "1.2.1",
   "description": "A lightweight React hook for infinite scroll pagination using IntersectionObserver.",
-  "author": "Ankit Pativala",
+  "author": "Ankit Pativala <ankitj1405@gmail.com>",
   "license": "MIT",
   "type": "module",
   "sideEffects": false,
+
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
+
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -16,11 +18,13 @@
       "require": "./dist/index.cjs"
     }
   },
+
   "files": [
     "dist",
     "README.md",
     "LICENSE"
   ],
+
   "scripts": {
     "clean": "rimraf dist",
     "build": "tsup src/index.ts --format esm,cjs --dts",
@@ -30,6 +34,7 @@
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage"
   },
+
   "keywords": [
     "react",
     "react-hooks",
@@ -42,24 +47,36 @@
     "typescript",
     "vite",
     "nextjs",
-    "ankit",
-    "ankit-pativala"
+    "react-library",
+    "npm-package"
   ],
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ankitpativala1405/scroll-pagination-react.git"
   },
+
   "bugs": {
     "url": "https://github.com/ankitpativala1405/scroll-pagination-react/issues"
   },
+
   "homepage": "https://github.com/ankitpativala1405/scroll-pagination-react#readme",
-  "peerDependencies": {
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+
+  "publishConfig": {
+    "access": "public"
   },
+
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+
   "engines": {
     "node": ">=18"
   },
+
+  "packageManager": "npm@11",
+
   "devDependencies": {
     "@testing-library/jest-dom": "^7.0.0",
     "@testing-library/react": "^16.3.2",
