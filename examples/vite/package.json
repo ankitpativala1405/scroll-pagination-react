@@ -10,7 +10,7 @@
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "scroll-pagination-react": "latest"
+    "scroll-pagination-react": "^1.2.2"
   },
   "devDependencies": {
     "@types/react": "^19.0.0",
