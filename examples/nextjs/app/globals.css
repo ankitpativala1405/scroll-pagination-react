@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f6f6f6;
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+}
+
+.loader {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
